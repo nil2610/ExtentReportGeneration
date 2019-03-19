@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sample Suite File" duration-ms="601" started-at="2019-03-19T07:12:22Z" finished-at="2019-03-19T07:12:23Z">
+    <groups>
+    </groups>
+    <test name="sample run" duration-ms="601" started-at="2019-03-19T07:12:22Z" finished-at="2019-03-19T07:12:23Z">
+      <class name="com.runners.runner">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.runners.runner@cb644e]" name="setUp" is-config="true" duration-ms="200" started-at="2019-03-19T07:12:22Z" finished-at="2019-03-19T07:12:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.runners.runner@cb644e]" name="setUpClass" is-config="true" duration-ms="216" started-at="2019-03-19T07:12:22Z" finished-at="2019-03-19T07:12:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runners.runner@cb644e]" name="feature" duration-ms="253" started-at="2019-03-19T07:12:22Z" data-provider="features" finished-at="2019-03-19T07:12:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[This is feature one file]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runners.runner@cb644e]" name="feature" duration-ms="32" started-at="2019-03-19T07:12:23Z" data-provider="features" finished-at="2019-03-19T07:12:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[This is feature two file]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.runners.runner@cb644e]" name="tearDownClass" is-config="true" duration-ms="15" started-at="2019-03-19T07:12:23Z" finished-at="2019-03-19T07:12:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.runners.runner@cb644e]" name="tearDown" is-config="true" duration-ms="316" started-at="2019-03-19T07:12:23Z" finished-at="2019-03-19T07:12:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.runners.runner -->
+    </test> <!-- sample run -->
+  </suite> <!-- Sample Suite File -->
+</testng-results>
